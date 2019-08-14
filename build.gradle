@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.github.linyuzai:dynamic-feign:0.3.1'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.1.2.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
